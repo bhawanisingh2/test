@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practical</title>
+    <script>
+      function sm() {
+        var a = document.getElementById("jscode").value;
+        docuument.getElementById("open").src= a;
+      }
+    </script>
+    <style>
+      img {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body bgcolor="steelblue">
+    <h1>CSS JS :</h1>
+    <select id="jscode">
+      <option value="/images/gif1.gif">File 1</option>
+      <option value="/images/gif2.gif">File 2</option>
+      <option value="/images/Life.jpg">File 3</option>
+    </select>
+    <button onclick="sm()">Proceed</button>
+    <br />
+    <img id="open"/>
+  </body>
+</html>
